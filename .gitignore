@@ -1,0 +1,11 @@
+# Ignore Gradle files
+gradle/
+.gradle/
+settings.gradle
+build/
+
+# Ignore IDE files
+bin/
+.classpath
+.project
+.settings/
