@@ -1,6 +1,6 @@
-package com.joaodartora.core.temafinal.parsers;
+package com.joaodartora.core.challenge.parsers;
 
-import com.joaodartora.core.temafinal.model.Customer;
+import com.joaodartora.core.challenge.model.Customer;
 
 public class CustomerParser {
 

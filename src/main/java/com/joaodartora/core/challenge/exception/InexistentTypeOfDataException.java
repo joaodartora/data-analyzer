@@ -1,4 +1,4 @@
-package com.joaodartora.core.temafinal.exception;
+package com.joaodartora.core.challenge.exception;
 
 public class InexistentTypeOfDataException extends Exception{
 	private static final long serialVersionUID = 1L;

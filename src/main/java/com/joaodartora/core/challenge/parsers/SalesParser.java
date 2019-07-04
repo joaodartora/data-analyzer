@@ -1,10 +1,10 @@
-package com.joaodartora.core.temafinal.parsers;
+package com.joaodartora.core.challenge.parsers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.joaodartora.core.temafinal.model.Item;
-import com.joaodartora.core.temafinal.model.Sales;
+import com.joaodartora.core.challenge.model.Item;
+import com.joaodartora.core.challenge.model.Sales;
 
 public class SalesParser {
 

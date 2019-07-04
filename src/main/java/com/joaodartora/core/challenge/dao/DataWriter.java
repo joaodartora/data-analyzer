@@ -1,4 +1,4 @@
-package com.joaodartora.core.temafinal.dao;
+package com.joaodartora.core.challenge.dao;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

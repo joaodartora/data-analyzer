@@ -1,4 +1,4 @@
-package com.joaodartora.core.temafinal.dao;
+package com.joaodartora.core.challenge.dao;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,13 +7,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.joaodartora.core.temafinal.exception.InexistentTypeOfDataException;
-import com.joaodartora.core.temafinal.model.Customer;
-import com.joaodartora.core.temafinal.model.Sales;
-import com.joaodartora.core.temafinal.model.Salesman;
-import com.joaodartora.core.temafinal.parsers.CustomerParser;
-import com.joaodartora.core.temafinal.parsers.SalesParser;
-import com.joaodartora.core.temafinal.parsers.SalesmanParser;
+import com.joaodartora.core.challenge.exception.InexistentTypeOfDataException;
+import com.joaodartora.core.challenge.model.Customer;
+import com.joaodartora.core.challenge.model.Sales;
+import com.joaodartora.core.challenge.model.Salesman;
+import com.joaodartora.core.challenge.parsers.CustomerParser;
+import com.joaodartora.core.challenge.parsers.SalesParser;
+import com.joaodartora.core.challenge.parsers.SalesmanParser;
 
 public class DataReader {
 

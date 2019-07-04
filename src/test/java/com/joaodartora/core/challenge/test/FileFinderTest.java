@@ -1,4 +1,4 @@
-package com.joaodartora.core.temafinal.test;
+package com.joaodartora.core.challenge.test;
 
 import static org.junit.Assert.*;
 
@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.joaodartora.core.temafinal.dao.FileFinder;
+import com.joaodartora.core.challenge.dao.FileFinder;
 
 public class FileFinderTest {
 

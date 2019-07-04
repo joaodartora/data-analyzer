@@ -1,12 +1,12 @@
-package com.joaodartora.core.temafinal.app;
+package com.joaodartora.core.challenge.app;
 
 import java.io.File;
 import java.util.List;
 
-import com.joaodartora.core.temafinal.analysis.DataAnalysis;
-import com.joaodartora.core.temafinal.dao.DataReader;
-import com.joaodartora.core.temafinal.dao.DataWriter;
-import com.joaodartora.core.temafinal.dao.FileFinder;
+import com.joaodartora.core.challenge.analysis.DataAnalysis;
+import com.joaodartora.core.challenge.dao.DataReader;
+import com.joaodartora.core.challenge.dao.DataWriter;
+import com.joaodartora.core.challenge.dao.FileFinder;
 
 public class App {
 	

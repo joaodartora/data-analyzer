@@ -1,4 +1,4 @@
-package com.joaodartora.core.temafinal.test;
+package com.joaodartora.core.challenge.test;
 
 import static org.junit.Assert.*;
 import java.util.ArrayList;
@@ -7,11 +7,11 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.joaodartora.core.temafinal.analysis.DataAnalysis;
-import com.joaodartora.core.temafinal.model.Customer;
-import com.joaodartora.core.temafinal.model.Item;
-import com.joaodartora.core.temafinal.model.Sales;
-import com.joaodartora.core.temafinal.model.Salesman;
+import com.joaodartora.core.challenge.analysis.DataAnalysis;
+import com.joaodartora.core.challenge.model.Customer;
+import com.joaodartora.core.challenge.model.Item;
+import com.joaodartora.core.challenge.model.Sales;
+import com.joaodartora.core.challenge.model.Salesman;
 
 public class DataAnalysisTest {
 

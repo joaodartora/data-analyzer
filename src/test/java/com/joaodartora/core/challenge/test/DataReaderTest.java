@@ -1,12 +1,13 @@
-package com.joaodartora.core.temafinal.test;
+package com.joaodartora.core.challenge.test;
 
 import static org.junit.Assert.*;
 import java.io.File;
 import org.junit.Test;
-import com.joaodartora.core.temafinal.dao.DataReader;
-import com.joaodartora.core.temafinal.parsers.CustomerParser;
-import com.joaodartora.core.temafinal.parsers.SalesParser;
-import com.joaodartora.core.temafinal.parsers.SalesmanParser;
+
+import com.joaodartora.core.challenge.dao.DataReader;
+import com.joaodartora.core.challenge.parsers.CustomerParser;
+import com.joaodartora.core.challenge.parsers.SalesParser;
+import com.joaodartora.core.challenge.parsers.SalesmanParser;
 
 public class DataReaderTest {
 

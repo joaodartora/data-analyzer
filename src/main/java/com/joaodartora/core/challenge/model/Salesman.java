@@ -1,4 +1,4 @@
-package com.joaodartora.core.temafinal.model;
+package com.joaodartora.core.challenge.model;
 
 public class Salesman {
 

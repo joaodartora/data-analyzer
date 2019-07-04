@@ -1,11 +1,11 @@
-package com.joaodartora.core.temafinal.analysis;
+package com.joaodartora.core.challenge.analysis;
 
 import java.util.Comparator;
 import java.util.List;
 
-import com.joaodartora.core.temafinal.model.Item;
-import com.joaodartora.core.temafinal.model.Sales;
-import com.joaodartora.core.temafinal.model.Salesman;
+import com.joaodartora.core.challenge.model.Item;
+import com.joaodartora.core.challenge.model.Sales;
+import com.joaodartora.core.challenge.model.Salesman;
 
 public class DataAnalysis {
 	
