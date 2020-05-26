@@ -1,5 +1,4 @@
 # Ignore Gradle files
-gradle/
 .gradle/
 settings.gradle
 build/
