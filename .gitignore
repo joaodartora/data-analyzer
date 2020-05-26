@@ -4,8 +4,9 @@ gradle/
 settings.gradle
 build/
 
-# Ignore IDE files
-bin/
-.classpath
-.project
-.settings/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
