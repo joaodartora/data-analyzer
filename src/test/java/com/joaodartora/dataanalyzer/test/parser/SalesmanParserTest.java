@@ -3,7 +3,6 @@ package com.joaodartora.dataanalyzer.test.parser;
 import com.joaodartora.dataanalyzer.model.BaseModel;
 import com.joaodartora.dataanalyzer.model.Salesman;
 import com.joaodartora.dataanalyzer.parser.SalesmanParser;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
