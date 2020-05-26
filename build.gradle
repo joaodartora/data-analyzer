@@ -19,7 +19,6 @@ repositories {
 }
 
 dependencies {
-    testImplementation("org.mockito:mockito-core:${mockitoVersion}")
     testImplementation("org.junit.jupiter:junit-jupiter:${junitVersion}") {
         exclude group: "org.junit.vintage", module: "junit-vintage-engine"
     }
