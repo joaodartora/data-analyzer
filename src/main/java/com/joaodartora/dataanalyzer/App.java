@@ -1,4 +1,4 @@
-package com.joaodartora.dataanalyzer.app;
+package com.joaodartora.dataanalyzer;
 
 import com.joaodartora.dataanalyzer.config.SchedulerConfig;
 import com.joaodartora.dataanalyzer.file.Processor;

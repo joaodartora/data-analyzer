@@ -19,7 +19,7 @@ public class ParserFactory {
         salesParser = new SalesParser();
     }
 
-    public Stream<BaseParser> get(){
+    public Stream<BaseParser> get() {
         return Stream.of(customerParser, salesmanParser, salesParser);
     }
 }

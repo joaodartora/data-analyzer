@@ -29,7 +29,7 @@ public class ParseService {
         return !"".equals(line) && line != null;
     }
 
-    private Optional<BaseModel> getBaseModelFactory(String line) throws InvalidParseTypeException{
+    private Optional<BaseModel> getBaseModelFactory(String line) throws InvalidParseTypeException {
         try {
             return parserFactory.get()
                     .filter(baseParser -> baseParser.isElegible(line))

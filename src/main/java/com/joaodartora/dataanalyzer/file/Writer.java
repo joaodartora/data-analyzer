@@ -14,7 +14,7 @@ public class Writer extends FileConfig {
     private final static Logger logger = Logger.getLogger(String.valueOf(Writer.class));
 
     public void writeOutputFile(AnalyzedData dataToWrite, String filename) {
-        logger.log(Level.INFO, "Writing the file {}", filename);
+        logger.info("Writing the file: " + filename);
         String filenameWithoutExtension = filename.replace(FILE_EXTENSION, "");
         Path path = Path.of(FILE_PATH_OUTPUT.concat(filenameWithoutExtension).concat(DONE_FILE_EXTENSION));
         try {

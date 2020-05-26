@@ -1,8 +1,8 @@
 package com.joaodartora.dataanalyzer.file;
 
+import com.joaodartora.dataanalyzer.config.FileConfig;
 import com.joaodartora.dataanalyzer.exception.InvalidFileExtensionException;
 import com.joaodartora.dataanalyzer.service.ProcessService;
-import com.joaodartora.dataanalyzer.config.FileConfig;
 
 import java.nio.file.WatchEvent;
 
@@ -21,7 +21,7 @@ public class Processor {
 
     private static Boolean validateFileExtension(String fileName) {
         boolean isValidFileExtension = fileName.endsWith(FileConfig.FILE_EXTENSION) && !fileName.endsWith(FileConfig.DONE_FILE_EXTENSION);
-        if(!isValidFileExtension) throw new InvalidFileExtensionException(fileName);
+        if (!isValidFileExtension) throw new InvalidFileExtensionException(fileName);
         return true;
     }
 
